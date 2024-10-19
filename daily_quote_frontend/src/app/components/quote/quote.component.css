@@ -1,0 +1,20 @@
+.quote-container {
+  display: flex;
+  flex-direction: column; /* Coloca os elementos um abaixo do outro */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  height: 80vh; /* Ocupa toda a altura da tela */
+}
+
+.card-top, .card-bottom {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  width: 50%;
+}
+
+.quote-text h1, .quote-author h2 {
+  text-align: center; /* Garante que o texto está centralizado dentro dos elementos */
+  margin: 0;
+  padding: 10px;
+}

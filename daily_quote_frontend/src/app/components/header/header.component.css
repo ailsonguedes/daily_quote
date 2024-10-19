@@ -1,0 +1,74 @@
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(204, 203, 203);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 10px 50px;
+  color: white;
+  height: 5vh;
+}
+
+.left-container{
+
+}
+
+.center-container{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.center-container li>a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.right-container{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact {
+  background-color: red; /* Define o fundo vermelho */
+  color: white; /* Define a cor do texto como branca */
+  padding: 10px 20px; /* Adiciona preenchimento para dar uma aparência mais agradável */
+  border-radius: 5px; /* Opcional: adiciona bordas arredondadas */
+  text-align: center; /* Centraliza o texto dentro do elemento */
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: black;
+  }
+}
+
+.contact a {
+  font-weight: bold;
+  color: white !important; /* Garante que o link também terá texto branco */
+  text-decoration: none; /* Remove o sublinhado do link */
+  display: block; /* Faz o link ocupar o elemento inteiro */
+}
+
+.right-container li>a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  text-align: center;
+  margin: 0;
+}
+
